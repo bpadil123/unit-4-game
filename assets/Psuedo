@@ -1,0 +1,19 @@
+Psuedo-code 
+
+
+HTML Elements:
+Title 
+Instructions
+Target/Random Numbers Box
+Wins/Loss Box
+Crystal Buttons
+User Score Counter/Total Score
+
+
+Need to have js generate a random number 
+For each of the 4 crystals, we need to have a random value generated that sticks to each crystal till the player wins or loses (or have each crystal generate a random sigle value when the game starts)
+Using event listerne, add each crystal click to var User Score
+Create a if statement to compare whether user score equal random letter
+Else to it the score busts
+Upon the matching arguement call fucntiont reset and re-randomize
+

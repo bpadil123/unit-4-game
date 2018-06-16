@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Wookie Game</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-4">Crystal Charge Game</h1>
+      <br>
+      <h4>Utilize the 4 elements below to charge your crystal. Each element is assigned to a certain random amount of energy,
+        so be mindful of how much you need of each. Beware, if you over charge you will break the crystal. </h4>
+      <hr class="my-4">
+
+
+
+      <h2>Charge Level Needed:
+        <span id="result"></span>
+      </h2>
+
+      <!-- figure out this -->
+      <div class="float-left score">
+        <p> Charged Crystals:
+          <span id="win"></span>
+        </p>
+      </div>
+      <p>Broken Crystals:
+        <span id="loss"></span>
+      </p>
+      <div class="text-center">
+        <img src="assets/images/air.png" id="1" alt="air" height="200" width="200">
+        <img src="assets/images/earth.png" id="2" alt="earth" height="200" width="200">
+        <img src="assets/images/water.png" id="3" alt="water" height="200" width="200">
+        <img src="assets/images/fire.png" id="4" alt="fire" height="200" width="200">
+      </div>
+      <!-- <button type="button" id="1" class="btn btn-primary">Crystal 1</button> -->
+      <!-- <button type="button" id="2" class="btn btn-primary">Crystal 2</button>
+      <button type="button" id="3" class="btn btn-primary">Crystal 3</button>
+      <button type="button" id="4" class="btn btn-primary">Crystal 4</button> -->
+
+      <h2>Charge Level:
+        <span id="totalScore"></span>
+      </h2>
+
+    </div>
+  </div>
+
+  <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+body{
+    background-image: url("../images/40361_abstract.jpg");
+}
+
+.jumbotron {
+    opacity: 0.7;
+    color:black;
+    margin:60px;
+    
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+
+}
+.hr{
+height:5px;
+}
+
+.img{
+    text-align:center;
+}
+
+h2{
+    text-align: center;
+
+}
+
+.score{
+    font-weight: bold;
+    text-align: center;
+
+
+}
